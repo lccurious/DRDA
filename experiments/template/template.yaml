@@ -1,0 +1,33 @@
+AUTO_RESUME: False
+CUDNN:
+  BENCHMARK: True
+  DETERMINISTIC: True
+  ENABLED: True
+DATASET:
+  DATASET: template_dataset
+  ROOT: ./data/template_dataset
+DEBUG:
+  DEBUG: False
+LOG_DIR: logs
+MODEL:
+  NAME: model_name
+OUTPUT_DIR: outputs
+PIN_MEMORY: True
+RANK: 0
+TRAIN:
+  BATCH_SIZE_PER_GPU: 32
+  BEGIN_EPOCH: 0
+  BETA1: 0.9
+  BETA2: 0.99
+  END_EPOCH: 20000
+  LR: 0.001
+  MOMENTUM: 0.9
+  NESTEROV: True
+  OPTIM: SGD
+  PRINT_ITER: 20
+  SEED: 2021
+  WEIGHT_DECAY: 0.001
+USE_APEX: False
+VAL:
+  BATCH_SIZE_PER_GPU: 32
+WORKERS: 4
