@@ -1,0 +1,13 @@
+matplotlib==3.3.3
+yacs==0.1.8
+numpy==1.19.2
+plotly==4.14.1
+tqdm==4.55.0
+torchvision==0.8.2
+geomloss==0.2.4
+torch==1.7.1
+geoopt==0.3.1
+scipy==1.5.3
+Jinja2==2.11.3
+Pillow==8.2.0
+scikit_learn==0.24.2
